@@ -1,0 +1,249 @@
+@font-face{
+    font-family: 'SenBold';
+    src: url('../fonts/Sen-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'InterRegular';
+    src: url('../fonts/Inter-Regular.otf');
+}
+
+@font-face{
+    font-family: 'InterMedium';
+    src: url('../fonts/Inter-Medium.otf');
+}
+
+@font-face{
+    font-family: 'InterSemibold';
+    src: url('../fonts/Inter-SemiBold.otf');
+}
+
+@font-face{
+    font-family: 'InterBlack';
+    src: url('../fonts/Inter-Black.otf');
+}
+
+
+
+
+
+.navbar, .offcanvas{
+    background-color: #232536;
+}
+
+.logo_2{
+    width: 20%;
+}
+
+.burger{
+    border: none;
+}
+
+.nav-link{
+    font-family: InterRegular;
+    font-size: clamp(16px, 1.1vw, 16px);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-close:focus, .btn-close:active{
+    outline: none;
+    box-shadow: none;
+}
+
+.nav_images{
+    width: 7.5%;
+}
+
+.custom-popover{
+    --bs-popover-max-width: 200px;
+    --bs-popover-border-color: var(--bd-violet-bg);
+    --bs-popover-header-bg: var(--bd-violet-bg);
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+
+
+
+
+
+
+
+
+.catagory_text_1{
+    font-family: SenBold;
+    font-size: clamp(25px, 2.5vw, 36px);
+}
+
+.catagory_block{
+    border: 1px solid #EAEAEB;
+}
+
+.catagory_block_active{
+    background-color: #FFD050;
+    border: 1px solid #FFD050;
+}
+
+.catagory_text_2{
+    font-family: SenBold;
+    font-size: clamp(20px, 2vw, 28px);
+}
+
+.catagory_text_3{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1.1vw, 16px);
+    color: #6D6E76;
+}
+
+
+
+
+
+
+
+
+
+
+.about_block{
+    background-color: #F4F0F8;
+}
+
+.about_header_img{
+    width: 100%;
+}
+
+.about_text_1{
+    font-family: InterSemibold;
+    font-size: clamp(10px, 1.1vw, 16px);
+}
+
+.about_text_2{
+    font-family: SenBold;
+    font-size: clamp(20px, 2vw, 28px);
+}
+
+.about_text_3{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1.1vw, 16px);
+    color: #6D6E76;
+}
+
+
+
+
+
+
+
+
+
+
+.autors_text_1{
+    font-family: SenBold;
+    font-size: clamp(25px, 2.5vw, 36px);
+}
+
+.autors_block{
+    background-color: #F4F4F4;
+    width: 100%;
+}
+
+.autors_block_active{
+    background-color: #FBF6EA;
+    width: 100%;
+}
+
+.autors_text_2{
+    font-family: SenBold;
+    font-size: clamp(20px, 2vw, 28px);
+}
+
+.autors_text_3{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1vw, 14px);
+    color: #6D6E76;
+}
+
+.autors_icon{
+    display: flex;
+    margin-top: auto;
+}
+
+
+
+
+
+
+
+
+
+.join_text_1{
+    font-family: SenBold;
+    font-size: clamp(30px, 3.3vw, 48px);
+}
+
+.join_text_2{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1.1vw, 16px);
+    color: #6D6E76;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.join_btn.btn-primary, .join_btn.btn-primary:hover, .join_btn.btn-primary:active, .join_btn.btn-primary:visited{
+    background-color: #FFD050 !important;
+    border: none;
+    border-radius: 0;
+    color: #232536;
+    font-family: SenBold;
+    font-size: clamp(12px, 1.25vw, 18px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .logo{
+        width: 20%;
+    }
+
+    .autors_img{
+        width: 25%;
+    }
+}
+
+@media(min-width: 768px){
+    .logo{
+        width: 10%;
+    }
+
+    .autors_img{
+        width: 70%;
+    }
+}

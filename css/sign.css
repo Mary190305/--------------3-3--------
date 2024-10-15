@@ -1,0 +1,87 @@
+.background{
+    background-color: #232536;
+    border-radius: 1rem;
+}
+
+.form_text_1{
+    font-family: SenBold;
+    font-size: clamp(25px, 2.5vw, 36px);
+}
+
+.form_text_2{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1.1vw, 16px);
+    color: #6D6E76;
+}
+
+.form_text_3{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1vw, 14px);
+    color: #6D6E76;
+}
+
+.form_text_4{
+    font-family: InterRegular;
+    font-size: clamp(10px, 1.1vw, 16px);
+}
+
+.form_text_5{
+    font-family: InterSemibold;
+    font-size: clamp(10px, 1.1vw, 16px);
+    color: #6D6E76;
+}
+
+.btn_form{
+    font-family: InterRegular;
+    font-size: clamp(12px, 1.4vw, 20px);
+}
+
+.btn_form.btn-primary, .btn_form.btn-primary:hover, .btn_form.btn-primary:active, .btn_form.btn-primary:visited {
+    background-color: #232536 !important;
+    border: 1.5px solid white;
+    border-radius: 0;
+}
+
+.form-control{
+    border-radius: 0;
+    border-color: white;
+    background-color: #232536;
+}
+
+.form-control:focus,
+.form-control:active{
+    outline: none;
+    box-shadow: none;
+    border-color: white;
+    background-color: #232536;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+.icon{
+    color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #9C9C9C;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
